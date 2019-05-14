@@ -12,8 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="@color/tan_background"
+        android:background="@color/Crimson"
         android:text="Sindhi"
+        android:textColor="@android:color/white"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
