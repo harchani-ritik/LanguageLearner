@@ -13,7 +13,7 @@ public class Word {
     {
         return mSindhiTranslation;
     }
-    public String getmDefaultTranslation()
+    public String getDefaultTranslation()
     {
         return mDefaultTranslation;
     }
