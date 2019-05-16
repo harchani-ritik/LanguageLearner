@@ -17,5 +17,6 @@
         android:id="@+id/textViewB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="one" />
+        android:text="TextView"
+        tools:text="one"/>
 </LinearLayout>

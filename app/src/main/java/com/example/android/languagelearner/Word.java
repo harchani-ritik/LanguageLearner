@@ -1,3 +1,5 @@
+package com.example.android.languagelearner;
+
 public class Word {
 
     private String mSindhiTranslation;
