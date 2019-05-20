@@ -6,6 +6,7 @@
     android:orientation="horizontal"
     android:padding="16dp">
 
+
     <ImageView
         android:id="@+id/iconImage"
         android:layout_width="wrap_content"
