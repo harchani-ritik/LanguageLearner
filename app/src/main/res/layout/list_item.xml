@@ -4,36 +4,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:padding="16dp">
+    android:minHeight="88dp"
+    android:background="@color/tan_background">
 
 
     <ImageView
         android:id="@+id/iconImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher" />
-
+        android:layout_width="88dp"
+        android:layout_height="88dp" />
 
     <LinearLayout
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-    <TextView
-        android:id="@+id/textViewA"
+        android:id="@+id/vertical_linear_layout"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:text="हिक"/>
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/textViewB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:text="one"/>
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="Sindhi"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:textSize="24sp"
+            tools:text="हिक"/>
+
+        <TextView
+            android:id="@+id/textViewB"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="English"
+            android:textColor="@color/White"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="one"/>
+
     </LinearLayout>
 
 </LinearLayout>

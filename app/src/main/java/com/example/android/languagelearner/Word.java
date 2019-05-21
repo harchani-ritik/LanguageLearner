@@ -6,7 +6,9 @@ public class Word {
 
     private String mSindhiTranslation;
     private String mDefaultTranslation;
-    private int mImageResourceId;
+    private int mImageResourceId=NOIMAGERESOURCEID;
+
+    private static final int NOIMAGERESOURCEID=-1;
 
     public Word(String sindhiTranslation,String defaultTranslation)
     {
@@ -32,6 +34,10 @@ public class Word {
     public int getImageResourceId()
     {
         return mImageResourceId;
+    }
+    public boolean hasImage()
+    {
+        return mImageResourceId!=NOIMAGERESOURCEID;
     }
 
 }

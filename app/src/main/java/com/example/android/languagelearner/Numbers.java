@@ -26,7 +26,7 @@ public class Numbers extends AppCompatActivity {
         words.add(new Word("नॅव","nine",R.drawable.number_nine));
         words.add(new Word("डह","ten",R.drawable.number_ten));
 
-        WordAdapter adapter = new WordAdapter(this,words);
+        WordAdapter adapter = new WordAdapter(this,words,"#FD8E09");
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
