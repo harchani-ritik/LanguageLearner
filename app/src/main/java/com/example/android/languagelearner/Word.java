@@ -8,6 +8,12 @@ public class Word {
     private String mDefaultTranslation;
     private int mImageResourceId;
 
+    public Word(String sindhiTranslation,String defaultTranslation)
+    {
+        mSindhiTranslation=sindhiTranslation;
+        mDefaultTranslation=defaultTranslation;
+    }
+
     public Word(String sindhiTranslation,String defaultTranslation,int imageResourceId)
     {
         mSindhiTranslation=sindhiTranslation;
