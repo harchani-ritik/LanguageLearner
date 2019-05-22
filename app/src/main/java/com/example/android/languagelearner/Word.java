@@ -7,6 +7,7 @@ public class Word {
     private String mSindhiTranslation;
     private String mDefaultTranslation;
     private int mImageResourceId=NOIMAGERESOURCEID;
+    private int mAudioResourceId;
 
     private static final int NOIMAGERESOURCEID=-1;
 
@@ -22,6 +23,13 @@ public class Word {
         mDefaultTranslation=defaultTranslation;
         mImageResourceId=imageResourceId;
     }
+    public Word(String sindhiTranslation,String defaultTranslation,int imageResourceId,int audioResourceId)
+    {
+        mSindhiTranslation=sindhiTranslation;
+        mDefaultTranslation=defaultTranslation;
+        mImageResourceId=imageResourceId;
+        mAudioResourceId=audioResourceId;
+    }
 
     public String getSindhiTranslation()
     {
@@ -35,9 +43,15 @@ public class Word {
     {
         return mImageResourceId;
     }
+
+    public int getAudioResourceId() {
+        return mAudioResourceId;
+    }
+
     public boolean hasImage()
     {
         return mImageResourceId!=NOIMAGERESOURCEID;
     }
+
 
 }

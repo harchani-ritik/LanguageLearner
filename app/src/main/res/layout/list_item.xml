@@ -30,7 +30,7 @@
             android:text="Sindhi"
             android:textStyle="bold"
             android:textColor="@color/White"
-            android:textSize="24sp"
+            android:textSize="20sp"
             tools:text="हिक"/>
 
         <TextView
